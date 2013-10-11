@@ -9,7 +9,7 @@ fi
 
 case "$HADOOP_MAJOR_VERSION" in
   1)
-    wget http://mirror.reverse.net/pub/apache/hadoop/common/hadoop-1.2.1/hadoop-1.2.1-bin.tar.gz
+    wget http://mirror.reverse.net/pub/apache/hadoop/common/hadoop-1.2.1/hadoop-1.2.1.tar.gz
     echo "Unpacking Hadoop"
     tar xvzf hadoop-1.2.1.tar.gz > /tmp/spark-ec2_hadoop.log
     rm hadoop-*.tar.gz
